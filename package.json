@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-azure-pod-remote-cli",
+  "version": "1.0.0",
+  "description": "Command and APIs to interact with Azure Pod Cli",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-vuky/nodejs-azure-pod-remote-cli.git"
+  },
+  "author": "Daniel Vu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daniel-vuky/nodejs-azure-pod-remote-cli/issues"
+  },
+  "homepage": "https://github.com/daniel-vuky/nodejs-azure-pod-remote-cli#readme",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.20.0",
+    "dotenv": "^16.4.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}

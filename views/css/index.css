@@ -1,0 +1,36 @@
+body {
+    font-family: monospace;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    height: 100%;
+}
+
+.terminal {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    color: yellow;
+    margin-right: 5px;
+}
+
+.output {
+    margin-top: 20px;
+}
+
+.commandInput {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+
+.commandInput:focus {
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
