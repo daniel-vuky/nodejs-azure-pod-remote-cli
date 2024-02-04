@@ -5,6 +5,7 @@
 
 This source will provide feature to:
 - Open adminer for server
+- Generate order promo
 - Search log of custom file
 - Open exception/system log of Adobe Commerce project
 - Open custom log
@@ -56,7 +57,7 @@ Enter "help" for see available command
 ```
 
 **Contributing**
-This is simple tool to supporting test team and the developer who didn't have permission to access server to open the adminer and find the log
+This is simple tool to supporting my team who didn't have permission to access server to open the adminer and find the log
 
 **License**
 This project is licensed under the MIT License - see the LICENSE file for details.

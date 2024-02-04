@@ -19,6 +19,13 @@ const getCommand = commandArray => {
                 'cd pub && curl -s -o health_check.php -L "http://www.adminer.org/latest.php" && supervisorctl restart php-fpm'
             ];
             break;
+        case 'generate-promo':
+            command = [
+                'sh',
+                '-c',
+                'curl -O https://files.magerun.net/n98-magerun2.phar && chmod +x ./n98-magerun2.phar && php n98-magerun2.phar sys:cron:run sosc_ordering_event_generate_order'
+            ];
+            break;
         case 'search-logs':
             command = [
                 "grep",

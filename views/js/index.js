@@ -4,6 +4,7 @@ const listAvailableCommands = {
     "switch": 2,
     "show-env": 1,
     "open-database": 1,
+    "generate-promo": 1,
     "search-logs": 3 ,
     "view-exception": 2,
     "view-system": 2,
@@ -63,6 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "<code>--- switch {env} : switch to input env (dev/uat/preprod) </code><br>" +
                 "<code>--- show-env : show current env </code><br>" +
                 "<code>--- open-database : open database connection </code><br>" +
+                "<code>--- generate-promo : generate promo event </code><br>" +
                 "<code>--- search-logs {keyword} {file-path} : search from logs </code><br>" +
                 "<code>--- view-exception {total-line} : view exception log </code><br>" +
                 "<code>--- view-system {total-line} : view system log </code><br>" +
