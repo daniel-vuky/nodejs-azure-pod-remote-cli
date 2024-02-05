@@ -82,6 +82,9 @@ document.addEventListener("DOMContentLoaded", function() {
             if (commandArray[0] === "show-env") {
                 return `Current env: ${mode}`;
             }
+            if (confirm(`You are in ${mode} environment. Are you sure to execute this command?`) === false) {
+                return "Command is canceled";
+            }
             return await fetch("/execute", {
                 method: "POST",
                 headers: {
